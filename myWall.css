@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f9f9f9;
+    background-image: url('https://media.istockphoto.com/id/1090882338/photo/office-workplace-with-laptop-and-blank-note-book-paper-with-pencil-under-warm-light-of-desk.jpg?s=2048x2048&w=is&k=20&c=rySeed8l9DR58Sc5Yu9q0gP-oh93u_SIaiKEyii90PA=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Header Section */
+.header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Profile Section */
+.profile-container {
+    width: 500px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.navbar li a:hover {
+    color: lightblue; /* Changes link color on hover */
+}
+
+.profile-container h2 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.profile-card {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    background-color: #fafafa;
+}
+
+.profile-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-card strong {
+    color: #333;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blue;
+    transition: background-color 0.3s, transform 0.2s;
+}
+button a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* Makes text white */
+    font-size: 16px;
+    display: block; /* Makes the entire button clickable */
+    text-align: center; /* Centers the text */
+    line-height: 20px; /* Adjusts for vertical alignment */
+    height: 100%; /* Ensures full height coverage */
+}
+
+button:hover {
+    background-color: darkblue;
+    transform: scale(1.05); /* Slight zoom effect */
+}

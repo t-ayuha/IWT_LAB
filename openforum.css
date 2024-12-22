@@ -1,0 +1,35 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content */
+.content {
+    padding: 20px;
+}
+.navbar li a:hover {
+    color: lightblue; /* Changes link color on hover */
+}
+/* Footer Section */
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #333;
+}

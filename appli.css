@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fallback color */
+    background-image: url('https://st.depositphotos.com/66679736/60018/i/1600/depositphotos_600184352-stock-photo-online-exam-choose-correct-answer.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+div {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fefefe;
+}
+
+.question {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Style for each option box */
+.option-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.option-box.correct {
+    background-color: #d4edda; /* Green background for correct answer */
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+.option-box.wrong {
+    background-color: #f8d7da; /* Red background for wrong answer */
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+.option-box:hover {
+    background-color: #f1f1f1;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Center the button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}

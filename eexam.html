@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Exam | e-GRAD Portal</title>
+    <link rel="stylesheet" href="eexam.css">
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure full height of the viewport */
+        }
+
+
+
+        .content {
+            flex: 1; /* Pushes the footer to the bottom */
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+
+        .footer ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Panel -->
+    <div class="header">
+        <div class="logo">
+            <a href="home.html">
+                <img src="https://media.istockphoto.com/id/912373688/photo/graduation-day-back-view-of-asian-woman-with-graduation-cap-and-gown-holding-diploma.jpg?s=2048x2048&w=is&k=20&c=ouJTNUrxLdYPEBceOLm5PyNfEIl2GMTxMyezkQMqaOI=" 
+                     alt="Graduation Cap and Diploma">
+            </a>
+        </div>
+        <ul class="navbar">
+            <li><a href="eexam.html">e-Exam</a></li>
+            <li><a href="openforum.html">Openforum</a></li>
+            <li><a href="eRepository.html">e-Repository</a></li>
+            <li><a href="myWall.jsp">MyWall</a></li>
+            <li><a href="login.jsp">Log-out</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" placeholder="Search..." style="padding: 8px; border: none; border-radius: 5px;">
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <section>
+            <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+                <button style="padding: 15px 30px; font-size: 16px; border: none; border-radius: 5px; background-color: blue; cursor: pointer;">
+                    <a href="appli.jsp" style="text-decoration: none; color: white;">C Programming</a>
+                </button>
+                <button style="padding: 15px 30px; font-size: 16px; border: none; border-radius: 5px; background-color: blue; cursor: pointer;">
+                    <a href="java.jsp" style="text-decoration: none; color: white;">Java</a>
+                </button>
+                <button style="padding: 15px 30px; font-size: 16px; border: none; border-radius: 5px; background-color: blue; cursor: pointer;">
+                    <a href="bio.jsp" style="text-decoration: none; color: white;">Python</a>
+                </button>
+                <button style="padding: 15px 30px; font-size: 16px; border: none; border-radius: 5px; background-color: blue; cursor: pointer;">
+                    <a href="javasc.jsp" style="text-decoration: none; color: white;">JSP</a>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Address</a></li>
+        </ul>
+    </div>
+</body>
+</html>
